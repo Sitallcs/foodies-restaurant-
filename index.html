@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Foodies Restaurant - Home</title>
+
+<style>
+body{
+margin:0;
+font-family:Arial;
+background:url("https://images.unsplash.com/photo-1517248135467-4c7edcad34c4") no-repeat center/cover;
+color:white;
+}
+
+nav{
+background:rgba(0,0,0,0.7);
+padding:15px;
+text-align:center;
+position:sticky;
+top:0;
+}
+
+nav a{
+color:white;
+margin:20px;
+text-decoration:none;
+font-size:18px;
+}
+
+.hero{
+text-align:center;
+padding:150px 20px;
+background:rgba(0,0,0,0.6);
+}
+
+.menu{
+background:rgba(0,0,0,0.85);
+padding:60px 20px;
+text-align:center;
+}
+
+.menu h2{
+font-size:40px;
+margin-bottom:40px;
+}
+
+.menu-container{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:30px;
+}
+
+.card{
+background:white;
+color:black;
+width:250px;
+padding:20px;
+border-radius:12px;
+box-shadow:0px 5px 15px rgba(0,0,0,0.5);
+transition:0.3s;
+}
+
+.card:hover{
+transform:scale(1.05);
+}
+
+/* ✅ FIXED IMAGE SIZE */
+.card img{
+width:100%;
+height:180px;
+object-fit:cover;
+border-radius:10px;
+}
+
+.price{
+font-size:20px;
+color:#e67e22;
+font-weight:bold;
+margin-top:10px;
+}
+
+/* ✅ UPDATED FOOTER */
+footer{
+background:rgba(0,0,0,0.8);
+padding:20px;
+display:flex;
+justify-content:center;
+gap:60px;
+flex-wrap:wrap;
+}
+
+/* Glass light color */
+footer p{
+color:rgba(255,255,255,0.7);
+margin:0;
+font-size:16px;
+}
+
+</style>
+</head>
+
+<body>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="services.html">Services</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+<div class="hero">
+<h1>Welcome to Foodies Restaurant</h1>
+<p>Experience the taste of luxury dining</p>
+</div>
+
+<!-- MENU SECTION -->
+<div class="menu">
+<h2>Our Special Dishes</h2>
+
+<div class="menu-container">
+
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1550547660-d9450f859349">
+<h3>Cheese Burger</h3>
+<p class="price">₹180</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c">
+<h3>protein salad</h3>
+<p class="price">₹200</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38">
+<h3>Pizza</h3>
+<p class="price">₹350</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1551024601-bec78aea704b">
+<h3>Donut</h3>
+<p class="price">₹120</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1604908176997-125f25cc6f3d">
+<h3>panner stir fry</h3>
+<p class="price">₹150</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092">
+<h3>combo platter</h3>
+<p class="price">₹250</p>
+</div>
+
+</div>
+</div>
+
+<footer>
+<p>📍 Bangalore, India</p>
+<p>📧 foodies@gmail.com</p>
+<p>📷 Instagram: @foodies_restaurant</p>
+</footer>
+
+</body>
+</html>
